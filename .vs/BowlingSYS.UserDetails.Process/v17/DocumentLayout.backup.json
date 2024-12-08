@@ -1,0 +1,275 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pawel\\Documents\\Pawel.UserDetails.Process\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E238FA90-FE60-42E2-858C-2CCA46CA9C92}|BowlingSYS.UserDetails.Handlers\\BowlingSYS.UserDetails.Handlers.csproj|c:\\users\\pawel\\documents\\pawel.userdetails.process\\bowlingsys.userdetails.handlers\\bowlingsys.userdetails.handlers.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E238FA90-FE60-42E2-858C-2CCA46CA9C92}|BowlingSYS.UserDetails.Handlers\\BowlingSYS.UserDetails.Handlers.csproj|solutionrelative:bowlingsys.userdetails.handlers\\bowlingsys.userdetails.handlers.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F546F74-ABA0-4DE0-B95B-65CB4172571C}|BowlingSYS.UserDetails.Process\\BowlingSYS.UserDetails.Process.csproj|c:\\users\\pawel\\documents\\pawel.userdetails.process\\bowlingsys.userdetails.process\\appconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F546F74-ABA0-4DE0-B95B-65CB4172571C}|BowlingSYS.UserDetails.Process\\BowlingSYS.UserDetails.Process.csproj|solutionrelative:bowlingsys.userdetails.process\\appconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F546F74-ABA0-4DE0-B95B-65CB4172571C}|BowlingSYS.UserDetails.Process\\BowlingSYS.UserDetails.Process.csproj|c:\\users\\pawel\\documents\\pawel.userdetails.process\\bowlingsys.userdetails.process\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F546F74-ABA0-4DE0-B95B-65CB4172571C}|BowlingSYS.UserDetails.Process\\BowlingSYS.UserDetails.Process.csproj|solutionrelative:bowlingsys.userdetails.process\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222D1047-C2D6-46D4-ADDC-26A13D7AF5DD}|BowlingSYS.UserDetails.Controllers\\BowlingSYS.UserDetails.Controllers.csproj|c:\\users\\pawel\\documents\\pawel.userdetails.process\\bowlingsys.userdetails.controllers\\dtofactory\\dtofactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{222D1047-C2D6-46D4-ADDC-26A13D7AF5DD}|BowlingSYS.UserDetails.Controllers\\BowlingSYS.UserDetails.Controllers.csproj|solutionrelative:bowlingsys.userdetails.controllers\\dtofactory\\dtofactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222D1047-C2D6-46D4-ADDC-26A13D7AF5DD}|BowlingSYS.UserDetails.Controllers\\BowlingSYS.UserDetails.Controllers.csproj|c:\\users\\pawel\\documents\\pawel.userdetails.process\\bowlingsys.userdetails.controllers\\dtofactory\\idtofactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{222D1047-C2D6-46D4-ADDC-26A13D7AF5DD}|BowlingSYS.UserDetails.Controllers\\BowlingSYS.UserDetails.Controllers.csproj|solutionrelative:bowlingsys.userdetails.controllers\\dtofactory\\idtofactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222D1047-C2D6-46D4-ADDC-26A13D7AF5DD}|BowlingSYS.UserDetails.Controllers\\BowlingSYS.UserDetails.Controllers.csproj|c:\\users\\pawel\\documents\\pawel.userdetails.process\\bowlingsys.userdetails.controllers\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{222D1047-C2D6-46D4-ADDC-26A13D7AF5DD}|BowlingSYS.UserDetails.Controllers\\BowlingSYS.UserDetails.Controllers.csproj|solutionrelative:bowlingsys.userdetails.controllers\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222D1047-C2D6-46D4-ADDC-26A13D7AF5DD}|BowlingSYS.UserDetails.Controllers\\BowlingSYS.UserDetails.Controllers.csproj|c:\\users\\pawel\\documents\\pawel.userdetails.process\\bowlingsys.userdetails.controllers\\controllers\\checkusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{222D1047-C2D6-46D4-ADDC-26A13D7AF5DD}|BowlingSYS.UserDetails.Controllers\\BowlingSYS.UserDetails.Controllers.csproj|solutionrelative:bowlingsys.userdetails.controllers\\controllers\\checkusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222D1047-C2D6-46D4-ADDC-26A13D7AF5DD}|BowlingSYS.UserDetails.Controllers\\BowlingSYS.UserDetails.Controllers.csproj|c:\\users\\pawel\\documents\\pawel.userdetails.process\\bowlingsys.userdetails.controllers\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{222D1047-C2D6-46D4-ADDC-26A13D7AF5DD}|BowlingSYS.UserDetails.Controllers\\BowlingSYS.UserDetails.Controllers.csproj|solutionrelative:bowlingsys.userdetails.controllers\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222D1047-C2D6-46D4-ADDC-26A13D7AF5DD}|BowlingSYS.UserDetails.Controllers\\BowlingSYS.UserDetails.Controllers.csproj|c:\\users\\pawel\\documents\\pawel.userdetails.process\\bowlingsys.userdetails.controllers\\controllers\\addusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{222D1047-C2D6-46D4-ADDC-26A13D7AF5DD}|BowlingSYS.UserDetails.Controllers\\BowlingSYS.UserDetails.Controllers.csproj|solutionrelative:bowlingsys.userdetails.controllers\\controllers\\addusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40008C66-D3EC-426F-B5E5-795B3E59F3F7}|BowlingSYS.UserDetails.Contracts\\BowlingSYS.UserDetails.Contracts.csproj|c:\\users\\pawel\\documents\\pawel.userdetails.process\\bowlingsys.userdetails.contracts\\userdtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40008C66-D3EC-426F-B5E5-795B3E59F3F7}|BowlingSYS.UserDetails.Contracts\\BowlingSYS.UserDetails.Contracts.csproj|solutionrelative:bowlingsys.userdetails.contracts\\userdtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222D1047-C2D6-46D4-ADDC-26A13D7AF5DD}|BowlingSYS.UserDetails.Controllers\\BowlingSYS.UserDetails.Controllers.csproj|c:\\users\\pawel\\documents\\pawel.userdetails.process\\bowlingsys.userdetails.controllers\\bowlingsys.userdetails.controllers.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{222D1047-C2D6-46D4-ADDC-26A13D7AF5DD}|BowlingSYS.UserDetails.Controllers\\BowlingSYS.UserDetails.Controllers.csproj|solutionrelative:bowlingsys.userdetails.controllers\\bowlingsys.userdetails.controllers.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196E916E-ACD5-45CE-93EB-3E5BEABC5FBC}|BowlingSYS.UserDetails.DBConnect\\BowlingSYS.UserDetails.DBConnect.csproj|c:\\users\\pawel\\documents\\pawel.userdetails.process\\bowlingsys.userdetails.dbconnect\\bowlingsys.userdetails.dbconnect.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{196E916E-ACD5-45CE-93EB-3E5BEABC5FBC}|BowlingSYS.UserDetails.DBConnect\\BowlingSYS.UserDetails.DBConnect.csproj|solutionrelative:bowlingsys.userdetails.dbconnect\\bowlingsys.userdetails.dbconnect.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40008C66-D3EC-426F-B5E5-795B3E59F3F7}|BowlingSYS.UserDetails.Contracts\\BowlingSYS.UserDetails.Contracts.csproj|c:\\users\\pawel\\documents\\pawel.userdetails.process\\bowlingsys.userdetails.contracts\\bowlingsys.userdetails.contracts.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{40008C66-D3EC-426F-B5E5-795B3E59F3F7}|BowlingSYS.UserDetails.Contracts\\BowlingSYS.UserDetails.Contracts.csproj|solutionrelative:bowlingsys.userdetails.contracts\\bowlingsys.userdetails.contracts.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F546F74-ABA0-4DE0-B95B-65CB4172571C}|BowlingSYS.UserDetails.Process\\BowlingSYS.UserDetails.Process.csproj|c:\\users\\pawel\\documents\\pawel.userdetails.process\\bowlingsys.userdetails.process\\bowlingsys.userdetails.process.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1F546F74-ABA0-4DE0-B95B-65CB4172571C}|BowlingSYS.UserDetails.Process\\BowlingSYS.UserDetails.Process.csproj|solutionrelative:bowlingsys.userdetails.process\\bowlingsys.userdetails.process.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23B9178F-EF93-4A59-B21C-D6F02032D595}|BowlingSYS.UserDetails.Entities\\BowlingSYS.UserDetails.Entities.csproj|c:\\users\\pawel\\documents\\pawel.userdetails.process\\bowlingsys.userdetails.entities\\bowlingsys.userdetails.entities.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{23B9178F-EF93-4A59-B21C-D6F02032D595}|BowlingSYS.UserDetails.Entities\\BowlingSYS.UserDetails.Entities.csproj|solutionrelative:bowlingsys.userdetails.entities\\bowlingsys.userdetails.entities.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DtoFactory.cs",
+              "DocumentMoniker": "C:\\Users\\pawel\\Documents\\Pawel.UserDetails.Process\\BowlingSYS.UserDetails.Controllers\\DtoFactory\\DtoFactory.cs",
+              "RelativeDocumentMoniker": "BowlingSYS.UserDetails.Controllers\\DtoFactory\\DtoFactory.cs",
+              "ToolTip": "C:\\Users\\pawel\\Documents\\Pawel.UserDetails.Process\\BowlingSYS.UserDetails.Controllers\\DtoFactory\\DtoFactory.cs",
+              "RelativeToolTip": "BowlingSYS.UserDetails.Controllers\\DtoFactory\\DtoFactory.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T14:22:42.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IDtoFactory.cs",
+              "DocumentMoniker": "C:\\Users\\pawel\\Documents\\Pawel.UserDetails.Process\\BowlingSYS.UserDetails.Controllers\\DtoFactory\\IDtoFactory.cs",
+              "RelativeDocumentMoniker": "BowlingSYS.UserDetails.Controllers\\DtoFactory\\IDtoFactory.cs",
+              "ToolTip": "C:\\Users\\pawel\\Documents\\Pawel.UserDetails.Process\\BowlingSYS.UserDetails.Controllers\\DtoFactory\\IDtoFactory.cs",
+              "RelativeToolTip": "BowlingSYS.UserDetails.Controllers\\DtoFactory\\IDtoFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T14:22:11.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\pawel\\Documents\\Pawel.UserDetails.Process\\BowlingSYS.UserDetails.Controllers\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "BowlingSYS.UserDetails.Controllers\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\pawel\\Documents\\Pawel.UserDetails.Process\\BowlingSYS.UserDetails.Controllers\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "BowlingSYS.UserDetails.Controllers\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T14:20:45.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pawel\\Documents\\Pawel.UserDetails.Process\\BowlingSYS.UserDetails.Process\\Program.cs",
+              "RelativeDocumentMoniker": "BowlingSYS.UserDetails.Process\\Program.cs",
+              "ToolTip": "C:\\Users\\pawel\\Documents\\Pawel.UserDetails.Process\\BowlingSYS.UserDetails.Process\\Program.cs",
+              "RelativeToolTip": "BowlingSYS.UserDetails.Process\\Program.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAqwGIAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T14:10:35.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\pawel\\Documents\\Pawel.UserDetails.Process\\BowlingSYS.UserDetails.Process\\AppConfiguration.cs",
+              "RelativeDocumentMoniker": "BowlingSYS.UserDetails.Process\\AppConfiguration.cs",
+              "ToolTip": "C:\\Users\\pawel\\Documents\\Pawel.UserDetails.Process\\BowlingSYS.UserDetails.Process\\AppConfiguration.cs",
+              "RelativeToolTip": "BowlingSYS.UserDetails.Process\\AppConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T14:10:27.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BowlingSYS.UserDetails.Handlers",
+              "DocumentMoniker": "C:\\Users\\pawel\\Documents\\Pawel.UserDetails.Process\\BowlingSYS.UserDetails.Handlers\\BowlingSYS.UserDetails.Handlers.csproj",
+              "RelativeDocumentMoniker": "BowlingSYS.UserDetails.Handlers\\BowlingSYS.UserDetails.Handlers.csproj",
+              "ToolTip": "C:\\Users\\pawel\\Documents\\Pawel.UserDetails.Process\\BowlingSYS.UserDetails.Handlers\\BowlingSYS.UserDetails.Handlers.csproj",
+              "RelativeToolTip": "BowlingSYS.UserDetails.Handlers\\BowlingSYS.UserDetails.Handlers.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-07T14:05:47.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\pawel\\Documents\\Pawel.UserDetails.Process\\BowlingSYS.UserDetails.Controllers\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "BowlingSYS.UserDetails.Controllers\\Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Users\\pawel\\Documents\\Pawel.UserDetails.Process\\BowlingSYS.UserDetails.Controllers\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "BowlingSYS.UserDetails.Controllers\\Controllers\\BaseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T14:18:36.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddUserController.cs",
+              "DocumentMoniker": "C:\\Users\\pawel\\Documents\\Pawel.UserDetails.Process\\BowlingSYS.UserDetails.Controllers\\Controllers\\AddUserController.cs",
+              "RelativeDocumentMoniker": "BowlingSYS.UserDetails.Controllers\\Controllers\\AddUserController.cs",
+              "ToolTip": "C:\\Users\\pawel\\Documents\\Pawel.UserDetails.Process\\BowlingSYS.UserDetails.Controllers\\Controllers\\AddUserController.cs",
+              "RelativeToolTip": "BowlingSYS.UserDetails.Controllers\\Controllers\\AddUserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T14:18:46.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\pawel\\Documents\\Pawel.UserDetails.Process\\BowlingSYS.UserDetails.Contracts\\UserDtos\\LoginDto.cs",
+              "RelativeDocumentMoniker": "BowlingSYS.UserDetails.Contracts\\UserDtos\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\pawel\\Documents\\Pawel.UserDetails.Process\\BowlingSYS.UserDetails.Contracts\\UserDtos\\LoginDto.cs",
+              "RelativeToolTip": "BowlingSYS.UserDetails.Contracts\\UserDtos\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T14:37:39.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CheckUserController.cs",
+              "DocumentMoniker": "C:\\Users\\pawel\\Documents\\Pawel.UserDetails.Process\\BowlingSYS.UserDetails.Controllers\\Controllers\\CheckUserController.cs",
+              "RelativeDocumentMoniker": "BowlingSYS.UserDetails.Controllers\\Controllers\\CheckUserController.cs",
+              "ToolTip": "C:\\Users\\pawel\\Documents\\Pawel.UserDetails.Process\\BowlingSYS.UserDetails.Controllers\\Controllers\\CheckUserController.cs",
+              "RelativeToolTip": "BowlingSYS.UserDetails.Controllers\\Controllers\\CheckUserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T14:18:17.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BowlingSYS.UserDetails.Process",
+              "DocumentMoniker": "C:\\Users\\pawel\\Documents\\Pawel.UserDetails.Process\\BowlingSYS.UserDetails.Process\\BowlingSYS.UserDetails.Process.csproj",
+              "RelativeDocumentMoniker": "BowlingSYS.UserDetails.Process\\BowlingSYS.UserDetails.Process.csproj",
+              "ToolTip": "C:\\Users\\pawel\\Documents\\Pawel.UserDetails.Process\\BowlingSYS.UserDetails.Process\\BowlingSYS.UserDetails.Process.csproj",
+              "RelativeToolTip": "BowlingSYS.UserDetails.Process\\BowlingSYS.UserDetails.Process.csproj",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABgAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-07T14:06:08.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BowlingSYS.UserDetails.Contracts",
+              "DocumentMoniker": "C:\\Users\\pawel\\Documents\\Pawel.UserDetails.Process\\BowlingSYS.UserDetails.Contracts\\BowlingSYS.UserDetails.Contracts.csproj",
+              "RelativeDocumentMoniker": "BowlingSYS.UserDetails.Contracts\\BowlingSYS.UserDetails.Contracts.csproj",
+              "ToolTip": "C:\\Users\\pawel\\Documents\\Pawel.UserDetails.Process\\BowlingSYS.UserDetails.Contracts\\BowlingSYS.UserDetails.Contracts.csproj",
+              "RelativeToolTip": "BowlingSYS.UserDetails.Contracts\\BowlingSYS.UserDetails.Contracts.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-07T14:05:12.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BowlingSYS.UserDetails.Controllers",
+              "DocumentMoniker": "C:\\Users\\pawel\\Documents\\Pawel.UserDetails.Process\\BowlingSYS.UserDetails.Controllers\\BowlingSYS.UserDetails.Controllers.csproj",
+              "RelativeDocumentMoniker": "BowlingSYS.UserDetails.Controllers\\BowlingSYS.UserDetails.Controllers.csproj",
+              "ToolTip": "C:\\Users\\pawel\\Documents\\Pawel.UserDetails.Process\\BowlingSYS.UserDetails.Controllers\\BowlingSYS.UserDetails.Controllers.csproj",
+              "RelativeToolTip": "BowlingSYS.UserDetails.Controllers\\BowlingSYS.UserDetails.Controllers.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-07T14:04:33.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BowlingSYS.UserDetails.DBConnect",
+              "DocumentMoniker": "C:\\Users\\pawel\\Documents\\Pawel.UserDetails.Process\\BowlingSYS.UserDetails.DBConnect\\BowlingSYS.UserDetails.DBConnect.csproj",
+              "RelativeDocumentMoniker": "BowlingSYS.UserDetails.DBConnect\\BowlingSYS.UserDetails.DBConnect.csproj",
+              "ToolTip": "C:\\Users\\pawel\\Documents\\Pawel.UserDetails.Process\\BowlingSYS.UserDetails.DBConnect\\BowlingSYS.UserDetails.DBConnect.csproj",
+              "RelativeToolTip": "BowlingSYS.UserDetails.DBConnect\\BowlingSYS.UserDetails.DBConnect.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-07T14:05:37.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BowlingSYS.UserDetails.Entities",
+              "DocumentMoniker": "C:\\Users\\pawel\\Documents\\Pawel.UserDetails.Process\\BowlingSYS.UserDetails.Entities\\BowlingSYS.UserDetails.Entities.csproj",
+              "RelativeDocumentMoniker": "BowlingSYS.UserDetails.Entities\\BowlingSYS.UserDetails.Entities.csproj",
+              "ToolTip": "C:\\Users\\pawel\\Documents\\Pawel.UserDetails.Process\\BowlingSYS.UserDetails.Entities\\BowlingSYS.UserDetails.Entities.csproj",
+              "RelativeToolTip": "BowlingSYS.UserDetails.Entities\\BowlingSYS.UserDetails.Entities.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-07T14:05:45.817Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

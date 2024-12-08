@@ -1,0 +1,6 @@
+C:\Users\pawel\Documents\Pawel.UserDetails.Process\Pawel.UserDetails.DBConnect\obj\Release\net8.0\Pawel.UserDetails.DBConnect.csproj.AssemblyReference.cache
+C:\Users\pawel\Documents\Pawel.UserDetails.Process\Pawel.UserDetails.DBConnect\obj\Release\net8.0\Pawel.UserDetails.DBConnect.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pawel\Documents\Pawel.UserDetails.Process\Pawel.UserDetails.DBConnect\obj\Release\net8.0\Pawel.UserDetails.DBConnect.AssemblyInfoInputs.cache
+C:\Users\pawel\Documents\Pawel.UserDetails.Process\Pawel.UserDetails.DBConnect\obj\Release\net8.0\Pawel.UserDetails.DBConnect.AssemblyInfo.cs
+C:\Users\pawel\Documents\Pawel.UserDetails.Process\Pawel.UserDetails.DBConnect\obj\Release\net8.0\Pawel.UserDetails.DBConnect.csproj.CoreCompileInputs.cache
+C:\Users\pawel\Documents\Pawel.UserDetails.Process\Pawel.UserDetails.DBConnect\obj\Release\net8.0\Pawel.UserDetails.DBConnect.sourcelink.json

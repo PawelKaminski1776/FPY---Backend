@@ -1,0 +1,6 @@
+C:\Users\pawel\Documents\Pawel.UserDetails.Process\Pawel.UserDetails.Handlers\obj\Release\net8.0\Pawel.UserDetails.Handlers.csproj.AssemblyReference.cache
+C:\Users\pawel\Documents\Pawel.UserDetails.Process\Pawel.UserDetails.Handlers\obj\Release\net8.0\Pawel.UserDetails.Handlers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pawel\Documents\Pawel.UserDetails.Process\Pawel.UserDetails.Handlers\obj\Release\net8.0\Pawel.UserDetails.Handlers.AssemblyInfoInputs.cache
+C:\Users\pawel\Documents\Pawel.UserDetails.Process\Pawel.UserDetails.Handlers\obj\Release\net8.0\Pawel.UserDetails.Handlers.AssemblyInfo.cs
+C:\Users\pawel\Documents\Pawel.UserDetails.Process\Pawel.UserDetails.Handlers\obj\Release\net8.0\Pawel.UserDetails.Handlers.csproj.CoreCompileInputs.cache
+C:\Users\pawel\Documents\Pawel.UserDetails.Process\Pawel.UserDetails.Handlers\obj\Release\net8.0\Pawel.UserDetails.Handlers.sourcelink.json

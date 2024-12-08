@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\BowlingSYS.UserDetails.Process.props" />
+</Project>

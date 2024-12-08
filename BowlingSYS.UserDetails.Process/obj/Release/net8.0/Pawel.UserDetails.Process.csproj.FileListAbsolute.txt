@@ -1,0 +1,7 @@
+C:\Users\pawel\Documents\Pawel.UserDetails.Process\Pawel.UserDetails.Process\obj\Release\net8.0\Pawel.UserDetails.Process.csproj.AssemblyReference.cache
+C:\Users\pawel\Documents\Pawel.UserDetails.Process\Pawel.UserDetails.Process\obj\Release\net8.0\Pawel.UserDetails.Process.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pawel\Documents\Pawel.UserDetails.Process\Pawel.UserDetails.Process\obj\Release\net8.0\Pawel.UserDetails.Process.AssemblyInfoInputs.cache
+C:\Users\pawel\Documents\Pawel.UserDetails.Process\Pawel.UserDetails.Process\obj\Release\net8.0\Pawel.UserDetails.Process.AssemblyInfo.cs
+C:\Users\pawel\Documents\Pawel.UserDetails.Process\Pawel.UserDetails.Process\obj\Release\net8.0\Pawel.UserDetails.Process.csproj.CoreCompileInputs.cache
+C:\Users\pawel\Documents\Pawel.UserDetails.Process\Pawel.UserDetails.Process\obj\Release\net8.0\Pawel.UserDetails.Process.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\pawel\Documents\Pawel.UserDetails.Process\Pawel.UserDetails.Process\obj\Release\net8.0\Pawel.UserDetails.Process.sourcelink.json
