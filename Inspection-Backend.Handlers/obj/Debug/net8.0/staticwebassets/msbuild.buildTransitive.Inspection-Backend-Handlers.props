@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Inspection-Backend-Handlers.props" />
+</Project>

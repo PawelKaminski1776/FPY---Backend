@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inspection-Backend-Messages", "Inspection-Backend.Contracts\Inspection-Backend-Messages.csproj", "{0D4FDE0D-F9D0-9528-2BD4-15B6B47FBB4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inspection-Backend.Controllers", "Inspection-Backend.Controllers\Inspection-Backend.Controllers.csproj", "{A3C9BF23-D252-4875-CE96-62DB07D2F736}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inspection-Backend-MongoDB", "Inspection-Backend.DBConnect\Inspection-Backend-MongoDB.csproj", "{162D3C0D-6BD3-6A59-B7C9-257D25661629}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inspection-Backend-Handlers", "Inspection-Backend.Handlers\Inspection-Backend-Handlers.csproj", "{D8C6CF4F-ED23-8C86-6272-DBCA9B76EAD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inspection-Backend-Process", "Inspection-Backend.Process\Inspection-Backend-Process.csproj", "{3367B8E5-298F-4105-62F6-350F6BAD17F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D4FDE0D-F9D0-9528-2BD4-15B6B47FBB4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D4FDE0D-F9D0-9528-2BD4-15B6B47FBB4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D4FDE0D-F9D0-9528-2BD4-15B6B47FBB4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D4FDE0D-F9D0-9528-2BD4-15B6B47FBB4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3C9BF23-D252-4875-CE96-62DB07D2F736}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3C9BF23-D252-4875-CE96-62DB07D2F736}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3C9BF23-D252-4875-CE96-62DB07D2F736}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3C9BF23-D252-4875-CE96-62DB07D2F736}.Release|Any CPU.Build.0 = Release|Any CPU
+		{162D3C0D-6BD3-6A59-B7C9-257D25661629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{162D3C0D-6BD3-6A59-B7C9-257D25661629}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{162D3C0D-6BD3-6A59-B7C9-257D25661629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{162D3C0D-6BD3-6A59-B7C9-257D25661629}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8C6CF4F-ED23-8C86-6272-DBCA9B76EAD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8C6CF4F-ED23-8C86-6272-DBCA9B76EAD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8C6CF4F-ED23-8C86-6272-DBCA9B76EAD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8C6CF4F-ED23-8C86-6272-DBCA9B76EAD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3367B8E5-298F-4105-62F6-350F6BAD17F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3367B8E5-298F-4105-62F6-350F6BAD17F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3367B8E5-298F-4105-62F6-350F6BAD17F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3367B8E5-298F-4105-62F6-350F6BAD17F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB771BA7-2065-4DC2-8B8D-AB3776E6C6A3}
+	EndGlobalSection
+EndGlobal

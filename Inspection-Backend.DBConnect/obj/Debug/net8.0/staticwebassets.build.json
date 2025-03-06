@@ -1,0 +1,24 @@
+{
+  "Version": 1,
+  "Hash": "vYeRK7asxLSi2Lc++Hnk0otiyq3U1OjyVF1uymkBv7M=",
+  "Source": "Inspection-Backend-MongoDB",
+  "BasePath": "_content/Inspection-Backend-MongoDB",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "D:\\FYP-Backend\\Inspection-Backend.Process\\Inspection-Backend.Contracts\\Inspection-Backend-Messages.csproj",
+      "Version": 2,
+      "Source": "Inspection-Backend-Messages",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
