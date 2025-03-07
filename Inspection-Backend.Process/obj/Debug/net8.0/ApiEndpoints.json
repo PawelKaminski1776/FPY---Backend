@@ -1,8 +1,8 @@
 [
   {
-    "ContainingType": "InspectionBackend.Controllers.UserControllers.SessionController",
+    "ContainingType": "InspectionBackend.Controllers.UserControllers.AddUserController",
     "Method": "AddAccount",
-    "RelativePath": "Api/Session/AddNewAccount",
+    "RelativePath": "Api/Accounts/AddNewAccount",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -10,6 +10,22 @@
       {
         "Name": "dto",
         "Type": "InspectionBackend.Contracts.UserDtos.UserCreationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InspectionBackend.Controllers.UserControllers.LoginController",
+    "Method": "AddAccount",
+    "RelativePath": "Api/Accounts/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "InspectionBackend.Contracts.UserDtos.LoginRequest",
         "IsRequired": true
       }
     ],
@@ -34,7 +50,7 @@
   {
     "ContainingType": "InspectionBackend.Controllers.InspectionControllers.WebsraperController",
     "Method": "ImageRequest",
-    "RelativePath": "Api/Training/Websrape",
+    "RelativePath": "Api/Training/Webscrape",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -42,22 +58,6 @@
       {
         "Name": "dto",
         "Type": "InspectionBackend.Contracts.InspectionDtos.InspectionImageRequest",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "InspectionBackend.Controllers.AddUserController",
-    "Method": "AddAccount",
-    "RelativePath": "Api/UserDetails/AddNewAccount",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "dto",
-        "Type": "InspectionBackend.Contracts.UserDtos.UserCreationRequest",
         "IsRequired": true
       }
     ],

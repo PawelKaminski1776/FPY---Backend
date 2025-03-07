@@ -14,7 +14,7 @@ namespace InspectionBackend.Controllers.InspectionControllers
         public WebsraperController(IMessageSession messageSession, IDtoFactory dtoFactory)
             : base(messageSession, dtoFactory) { }
 
-        [HttpPost("Websrape")]
+        [HttpPost("Webscrape")]
         public async Task<IActionResult> ImageRequest([FromBody] InspectionImageRequest dto)
         {
             var InspectionImagesDto = (InspectionImageRequest)_dtoFactory.UseDto("inspectionimagesdto", dto);

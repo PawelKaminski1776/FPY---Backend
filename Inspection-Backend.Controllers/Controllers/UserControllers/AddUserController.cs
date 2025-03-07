@@ -1,13 +1,13 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using NServiceBus;
 using InspectionBackend.Contracts.UserDtos;
 using System.Threading.Tasks;
 using InspectionBackend.UserDetails.Controllers.DtoFactory;
 
-namespace InspectionBackend.Controllers
+namespace InspectionBackend.Controllers.UserControllers
 {
     [ApiController]
-    [Route("Api/UserDetails")]
+    [Route("Api/Accounts")]
     public class AddUserController : BaseController
     {
         public AddUserController(IMessageSession messageSession, IDtoFactory dtoFactory)
@@ -20,9 +20,8 @@ namespace InspectionBackend.Controllers
 
             try
             {
-                //var response = await _messageSession.Request<>(userCreationDto);
-                //return Ok(response);
-                return Ok(userCreationDto);
+                var response = await _messageSession.Request<UserCreationResponse>(userCreationDto);
+                return Ok(response);
             }
             catch (Exception ex)
             {

@@ -1,12 +1,105 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\FYP-Backend\\Inspection-Backend.Process\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A3C9BF23-D252-4875-CE96-62DB07D2F736}|Inspection-Backend.Controllers\\Inspection-Backend.Controllers.csproj|d:\\fyp-backend\\inspection-backend.process\\inspection-backend.controllers\\controllers\\usercontrollers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3C9BF23-D252-4875-CE96-62DB07D2F736}|Inspection-Backend.Controllers\\Inspection-Backend.Controllers.csproj|solutionrelative:inspection-backend.controllers\\controllers\\usercontrollers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{162D3C0D-6BD3-6A59-B7C9-257D25661629}|Inspection-Backend.DBConnect\\Inspection-Backend-MongoDB.csproj|d:\\fyp-backend\\inspection-backend.process\\inspection-backend.dbconnect\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{162D3C0D-6BD3-6A59-B7C9-257D25661629}|Inspection-Backend.DBConnect\\Inspection-Backend-MongoDB.csproj|solutionrelative:inspection-backend.dbconnect\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3C9BF23-D252-4875-CE96-62DB07D2F736}|Inspection-Backend.Controllers\\Inspection-Backend.Controllers.csproj|d:\\fyp-backend\\inspection-backend.process\\inspection-backend.controllers\\dtofactory\\dtofactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3C9BF23-D252-4875-CE96-62DB07D2F736}|Inspection-Backend.Controllers\\Inspection-Backend.Controllers.csproj|solutionrelative:inspection-backend.controllers\\dtofactory\\dtofactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C6CF4F-ED23-8C86-6272-DBCA9B76EAD4}|Inspection-Backend.Handlers\\Inspection-Backend-Handlers.csproj|d:\\fyp-backend\\inspection-backend.process\\inspection-backend.handlers\\handlers\\loginhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C6CF4F-ED23-8C86-6272-DBCA9B76EAD4}|Inspection-Backend.Handlers\\Inspection-Backend-Handlers.csproj|solutionrelative:inspection-backend.handlers\\handlers\\loginhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3367B8E5-298F-4105-62F6-350F6BAD17F5}|Inspection-Backend.Process\\Inspection-Backend-Process.csproj|d:\\fyp-backend\\inspection-backend.process\\inspection-backend.process\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3367B8E5-298F-4105-62F6-350F6BAD17F5}|Inspection-Backend.Process\\Inspection-Backend-Process.csproj|solutionrelative:inspection-backend.process\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\FYP-Backend\\Inspection-Backend.Process\\Inspection-Backend.DBConnect\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Inspection-Backend.DBConnect\\Services\\UserService.cs",
+              "ToolTip": "D:\\FYP-Backend\\Inspection-Backend.Process\\Inspection-Backend.DBConnect\\Services\\UserService.cs",
+              "RelativeToolTip": "Inspection-Backend.DBConnect\\Services\\UserService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwD8AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T21:30:49.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginHandler.cs",
+              "DocumentMoniker": "D:\\FYP-Backend\\Inspection-Backend.Process\\Inspection-Backend.Handlers\\Handlers\\LoginHandler.cs",
+              "RelativeDocumentMoniker": "Inspection-Backend.Handlers\\Handlers\\LoginHandler.cs",
+              "ToolTip": "D:\\FYP-Backend\\Inspection-Backend.Process\\Inspection-Backend.Handlers\\Handlers\\LoginHandler.cs",
+              "RelativeToolTip": "Inspection-Backend.Handlers\\Handlers\\LoginHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T21:30:25.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\FYP-Backend\\Inspection-Backend.Process\\Inspection-Backend.Controllers\\Controllers\\UserControllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Inspection-Backend.Controllers\\Controllers\\UserControllers\\LoginController.cs",
+              "ToolTip": "D:\\FYP-Backend\\Inspection-Backend.Process\\Inspection-Backend.Controllers\\Controllers\\UserControllers\\LoginController.cs",
+              "RelativeToolTip": "Inspection-Backend.Controllers\\Controllers\\UserControllers\\LoginController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T21:04:37.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\FYP-Backend\\Inspection-Backend.Process\\Inspection-Backend.Process\\Program.cs",
+              "RelativeDocumentMoniker": "Inspection-Backend.Process\\Program.cs",
+              "ToolTip": "D:\\FYP-Backend\\Inspection-Backend.Process\\Inspection-Backend.Process\\Program.cs",
+              "RelativeToolTip": "Inspection-Backend.Process\\Program.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAUwGsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T21:03:13.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DtoFactory.cs",
+              "DocumentMoniker": "D:\\FYP-Backend\\Inspection-Backend.Process\\Inspection-Backend.Controllers\\DtoFactory\\DtoFactory.cs",
+              "RelativeDocumentMoniker": "Inspection-Backend.Controllers\\DtoFactory\\DtoFactory.cs",
+              "ToolTip": "D:\\FYP-Backend\\Inspection-Backend.Process\\Inspection-Backend.Controllers\\DtoFactory\\DtoFactory.cs",
+              "RelativeToolTip": "Inspection-Backend.Controllers\\DtoFactory\\DtoFactory.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAnwCgAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T21:02:31.537Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

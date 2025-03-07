@@ -12,6 +12,21 @@ public class DtoFactory : IDtoFactory
 
         switch (dtoType.ToLower())
         {
+
+            case "usercreationdto":
+                if (args.Length < 5 || !(args[0] is string email) || !(args[1] is string password) ||
+                    !(args[2] is string company) || !(args[3] is string forename) || !(args[4] is string surname))
+                    throw new ArgumentException("Invalid arguments for UserCreationRequest.");
+
+                return new UserCreationRequest
+                {
+                    Email = email,
+                    Password = password,
+                    Company = company,
+                    Forename = forename,
+                    Surname = surname
+                };
+
             case "inspectiondto":
                 if (args.Length < 2 || !(args[0] is string) || !(args[1] is string[]))
                     throw new ArgumentException("Invalid arguments for InspectionRequest.");
@@ -55,6 +70,7 @@ public class DtoFactory : IDtoFactory
 
         switch (dtoType.ToLower())
         {
+            case "logindto":
             case "usercreationdto":
             case "inspectiondto":
             case "inspectionimagesdto":

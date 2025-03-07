@@ -7,6 +7,8 @@ using InspectionBackend.Handlers;
 using InspectionBackend.Contracts.InspectionDtos;
 using MongoDB.Services;
 using MongoDB.Helpers;
+using MongoDB.Services.UserService;
+using InspectionBackend.Contracts.UserDtos;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -40,6 +42,12 @@ builder.Services.AddScoped<MongoConnect>(provider =>
     return new MongoConnect(connectionString);
 });
 
+builder.Services.AddScoped<UserService>(provider =>
+{
+    var connectionString = appConfig.GetSetting("ConnectionStrings:DefaultConnection");
+    return new UserService(connectionString);
+});
+
 builder.Services.AddScoped<ImageTrainingAPI>(provider =>
 {
     var pythonApi = appConfig.GetSetting("PythonAPI");
@@ -48,9 +56,10 @@ builder.Services.AddScoped<ImageTrainingAPI>(provider =>
     return new ImageTrainingAPI(pythonApi, username, password);
 });
 
-builder.Services.AddScoped<MyMessageHandler>();
+builder.Services.AddScoped<AddUserHandler>();
 builder.Services.AddScoped<InspectionCreationHandler>();
 builder.Services.AddScoped<InspectionImagesHandler>();
+builder.Services.AddScoped<LoginHandler>();
 
 
 builder.Services.AddControllers();
@@ -92,8 +101,8 @@ var persistence = endpointConfiguration.UsePersistence<LearningPersistence>();
 var routing = transport.Routing();
 routing.RouteToEndpoint(typeof(InspectionRequest), "NServiceBusHandlers");
 routing.RouteToEndpoint(typeof(InspectionImageRequest), "NServiceBusHandlers");
-
-
+routing.RouteToEndpoint(typeof(LoginRequest), "NServiceBusHandlers");
+routing.RouteToEndpoint(typeof(UserCreationRequest), "NServiceBusHandlers");
 
 var scanner = endpointConfiguration.AssemblyScanner().ScanFileSystemAssemblies = true;
 

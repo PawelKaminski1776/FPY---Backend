@@ -1,4 +1,5 @@
 using System;
+using InspectionBackend.Contracts.InspectionDtos;
 using MongoDB.Bson;
 using MongoDB.Driver;
 using static System.Runtime.InteropServices.JavaScript.JSType;
@@ -7,11 +8,24 @@ namespace MongoDB.Services
 {
     public class MongoConnect
     {
-        MongoClient dbClient;
+        protected readonly MongoClient dbClient;
         public MongoConnect(string ConnectionString)
         {
             dbClient = new MongoClient(ConnectionString);
 
+        }
+
+        public BsonArray SetUpImages(InspectionImage[] content)
+        {
+
+            BsonArray array = new BsonArray();
+
+            foreach (InspectionImage image in content)
+            {
+                array.Add(new BsonDocument { { "imageurl", image.ImgUrl } });
+            }
+
+            return array;
         }
 
         public BsonArray SetUpDocument(string[] content)
@@ -21,11 +35,14 @@ namespace MongoDB.Services
 
             foreach (string name in content)
             {
-                array.Add(new BsonDocument { { "", name } });
+                array.Add(new BsonDocument { { "InspectionName", name } });
             }
 
             return array;
         }
+
+
+
         public async Task<string> SendToMongo(string[] content, string name)
         {
             var database = dbClient.GetDatabase("InspectionAppDatabase");
@@ -45,12 +62,12 @@ namespace MongoDB.Services
 
         }
 
-        public async Task<string> SendImagesToMongo(string[] content, string name)
+        public async Task<string> SendImagesToMongo(InspectionImageResponse request)
         {
             var database = dbClient.GetDatabase("InspectionAppDatabase");
             var collection = database.GetCollection<BsonDocument>("Inspection_images");
             
-            var document = new BsonDocument { { "inspection_name", name }, { "images", SetUpDocument(content) } };
+            var document = new BsonDocument { { "inspection_name", request.InspectionName }, { "images", SetUpImages(request.Images) } };
 
             try
             {

@@ -7,22 +7,21 @@ using InspectionBackend.UserDetails.Controllers.DtoFactory;
 namespace InspectionBackend.Controllers.UserControllers
 {
     [ApiController]
-    [Route("Api/Session")]
-    public class SessionController : BaseController
+    [Route("Api/Accounts")]
+    public class LoginController : BaseController
     {
-        public SessionController(IMessageSession messageSession, IDtoFactory dtoFactory)
+        public LoginController(IMessageSession messageSession, IDtoFactory dtoFactory)
             : base(messageSession, dtoFactory) { }
 
-        [HttpPost("AddNewAccount")]
-        public async Task<IActionResult> AddAccount([FromBody] UserCreationRequest dto)
+        [HttpPost("Login")]
+        public async Task<IActionResult> AddAccount([FromBody] LoginRequest dto)
         {
-            var userCreationDto = (UserCreationRequest)_dtoFactory.UseDto("usercreationdto", dto);
+            var loginDto = (LoginRequest)_dtoFactory.UseDto("logindto", dto);
 
             try
             {
-                //var response = await _messageSession.Request<>(userCreationDto);
-                //return Ok(response);
-                return Ok(userCreationDto);
+                var response = await _messageSession.Request<LoginResponse>(loginDto);
+                return Ok(response);
             }
             catch (Exception ex)
             {

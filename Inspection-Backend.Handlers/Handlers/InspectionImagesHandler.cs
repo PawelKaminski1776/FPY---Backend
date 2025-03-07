@@ -29,6 +29,8 @@ namespace InspectionBackend.Handlers
 
                 response = await imageTrainingAPI.SendToImageTrainingAPI("/Webscraper", message);
 
+                await mongoConnect.SendImagesToMongo(response);
+
                 await context.Reply(response);
             }
             catch (Exception ex)

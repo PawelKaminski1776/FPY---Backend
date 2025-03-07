@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Inspection-Backend-Handlers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4df626f4daa3ac6a456e060eb5694687abc1f07e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0f474f5ef921390796773f696a142a0bd259e26b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Inspection-Backend-Handlers")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Inspection-Backend-Handlers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1952,7 +1952,7 @@
     "ProcessorCount": 8,
     "Is64BitProcess": true,
     "CLRVersion": "8.0.13",
-    "WorkingSet": 74366976,
+    "WorkingSet": 74051584,
     "SystemPageSize": 4096,
     "HostName": "Home-Laptop",
     "UserName": "pawel",
@@ -1976,15 +1976,16 @@
     "MessageConventions": [
       "NServiceBus Marker Interfaces"
     ],
-    "NumberOfMessagesFoundAtStartup": 8,
+    "NumberOfMessagesFoundAtStartup": 9,
     "Messages": [
+      "InspectionBackend.Contracts.InspectionDtos.InspectionRequest",
+      "InspectionBackend.Contracts.InspectionDtos.ErrorMessage",
+      "InspectionBackend.Contracts.UserDtos.LoginRequest",
+      "InspectionBackend.Contracts.InspectionDtos.InspectionImageRequest",
+      "InspectionBackend.Contracts.UserDtos.LoginResponse",
+      "InspectionBackend.Contracts.UserDtos.UserCreationResponse",
       "InspectionBackend.Contracts.InspectionDtos.InspectionImageResponse",
       "InspectionBackend.Contracts.UserDtos.UserCreationRequest",
-      "InspectionBackend.Contracts.InspectionDtos.ErrorMessage",
-      "InspectionBackend.Contracts.UserDtos.UserCreationResponse",
-      "InspectionBackend.Contracts.UserDtos.LoginRequest",
-      "InspectionBackend.Contracts.InspectionDtos.InspectionRequest",
-      "InspectionBackend.Contracts.InspectionDtos.InspectionImageRequest",
       "InspectionBackend.Contracts.InspectionDtos.InspectionResponse"
     ]
   },
@@ -2018,12 +2019,15 @@
       
     ],
     "MessageHandlers": {
+      "InspectionBackend.Contracts.UserDtos.UserCreationRequest": [
+        "InspectionBackend.Handlers.AddUserHandler"
+      ],
       "InspectionBackend.Contracts.InspectionDtos.InspectionImageRequest": [
         "InspectionBackend.Handlers.InspectionCreationHandler",
         "InspectionBackend.Handlers.InspectionImagesHandler"
       ],
-      "InspectionBackend.Contracts.UserDtos.UserCreationRequest": [
-        "InspectionBackend.Handlers.MyMessageHandler"
+      "InspectionBackend.Contracts.UserDtos.LoginRequest": [
+        "InspectionBackend.Handlers.LoginHandler"
       ]
     }
   },

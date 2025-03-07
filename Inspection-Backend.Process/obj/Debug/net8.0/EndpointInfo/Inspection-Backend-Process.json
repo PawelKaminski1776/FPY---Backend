@@ -5,7 +5,7 @@
     "version": "1.0"
   },
   "paths": {
-    "/Api/UserDetails/AddNewAccount": {
+    "/Api/Accounts/AddNewAccount": {
       "post": {
         "tags": [
           "AddUser"
@@ -36,26 +36,26 @@
         }
       }
     },
-    "/Api/Session/AddNewAccount": {
+    "/Api/Accounts/Login": {
       "post": {
         "tags": [
-          "Session"
+          "Login"
         ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/UserCreationRequest"
+                "$ref": "#/components/schemas/LoginRequest"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/UserCreationRequest"
+                "$ref": "#/components/schemas/LoginRequest"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/UserCreationRequest"
+                "$ref": "#/components/schemas/LoginRequest"
               }
             }
           }
@@ -98,7 +98,7 @@
         }
       }
     },
-    "/Api/Training/Websrape": {
+    "/Api/Training/Webscrape": {
       "post": {
         "tags": [
           "Websraper"
@@ -167,6 +167,20 @@
         },
         "additionalProperties": false
       },
+      "LoginRequest": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "UserCreationRequest": {
         "type": "object",
         "properties": {
@@ -175,6 +189,10 @@
             "nullable": true
           },
           "password": {
+            "type": "string",
+            "nullable": true
+          },
+          "company": {
             "type": "string",
             "nullable": true
           },

@@ -28,6 +28,11 @@ namespace InspectionBackend.Contracts.InspectionDtos
         public InspectionImage[] Images { get; set; }
     }
 
+    public class InspectionCompanys
+    {
+        public string CompanyName { get; set; }
+    }
+
     public class InspectionImage
     {
         public string ImgUrl { get; set; }

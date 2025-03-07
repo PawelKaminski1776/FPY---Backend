@@ -22,6 +22,5 @@
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="Controllers\InspectionController\" />
-	  <Folder Include="Controllers\UserControllers\" />
 	</ItemGroup>
 </Project>
