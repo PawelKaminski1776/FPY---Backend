@@ -4,10 +4,12 @@ namespace InspectionBackend.Contracts.InspectionDtos
 {
     public class InspectionRequest : IMessage
     {
-        public string InspectionName { get; set; }
-        public string[] InspectionVariables { get; set; }
-
+        public IFormFile? Cocofile { get; set; }
+        public IFormFile[]? Photos { get; set; }
+        public string? Inspectionname { get; set; }
+        public string? Email { get; set; }
     }
+
 
     public class InspectionResponse : IMessage
     {

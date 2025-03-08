@@ -74,19 +74,42 @@
         ],
         "requestBody": {
           "content": {
-            "application/json": {
+            "multipart/form-data": {
               "schema": {
-                "$ref": "#/components/schemas/InspectionRequest"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/InspectionRequest"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/InspectionRequest"
+                "type": "object",
+                "properties": {
+                  "Cocofile": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "Photos": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "format": "binary"
+                    }
+                  },
+                  "Inspectionname": {
+                    "type": "string"
+                  },
+                  "Email": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "Cocofile": {
+                  "style": "form"
+                },
+                "Photos": {
+                  "style": "form"
+                },
+                "Inspectionname": {
+                  "style": "form"
+                },
+                "Email": {
+                  "style": "form"
+                }
               }
             }
           }
@@ -145,23 +168,6 @@
           },
           "county": {
             "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "InspectionRequest": {
-        "type": "object",
-        "properties": {
-          "inspectionName": {
-            "type": "string",
-            "nullable": true
-          },
-          "inspectionVariables": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            },
             "nullable": true
           }
         },

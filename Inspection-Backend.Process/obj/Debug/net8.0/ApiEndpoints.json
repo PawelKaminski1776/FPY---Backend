@@ -33,16 +33,31 @@
   },
   {
     "ContainingType": "InspectionBackend.Controllers.UserControllers.TrainingController",
-    "Method": "AddAccount",
+    "Method": "AddInspection",
     "RelativePath": "Api/Training/AddInspectionPattern",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "dto",
-        "Type": "InspectionBackend.Contracts.InspectionDtos.InspectionRequest",
-        "IsRequired": true
+        "Name": "Cocofile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "Photos",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Inspectionname",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

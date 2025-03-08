@@ -21,7 +21,7 @@ namespace MongoDB.Helpers
             _password = password;
         }
 
-        public async Task<InspectionImageResponse?> SendToImageTrainingAPI(string endpoint, InspectionImageRequest message)
+        public async Task<InspectionImageResponse?> SendToImageTrainingAPI(string endpoint, object message)
         {
             try
             {

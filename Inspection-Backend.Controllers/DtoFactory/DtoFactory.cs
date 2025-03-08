@@ -28,13 +28,16 @@ public class DtoFactory : IDtoFactory
                 };
 
             case "inspectiondto":
-                if (args.Length < 2 || !(args[0] is string) || !(args[1] is string[]))
+                if (args.Length < 4 || !(args[0] is IFormFile cocofile) || !(args[1] is IFormFile[] photos) ||
+                    !(args[2] is string inspectionname) || !(args[3] is string Email))
                     throw new ArgumentException("Invalid arguments for InspectionRequest.");
 
                 return new InspectionRequest
                 {
-                    InspectionName = (string)args[0],
-                    InspectionVariables = (string[])args[1]
+                    Cocofile = cocofile,
+                    Photos = photos,
+                    Inspectionname = inspectionname,
+                    Email = Email
                 };
 
             case "inspectionimagesdto":

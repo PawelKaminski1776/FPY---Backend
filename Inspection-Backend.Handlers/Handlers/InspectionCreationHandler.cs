@@ -19,6 +19,8 @@ namespace InspectionBackend.Handlers
             {
                 InspectionImageResponse response = new InspectionImageResponse();
 
+
+
                 response.InspectionName = message.InspectionName;
 
                 await context.Reply(response);

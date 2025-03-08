@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Inspection-Backend-Process")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0f474f5ef921390796773f696a142a0bd259e26b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e8bf10f403c0c1e26d8662c71f4097da3c11e831")]
 [assembly: System.Reflection.AssemblyProductAttribute("Inspection-Backend-Process")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Inspection-Backend-Process")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

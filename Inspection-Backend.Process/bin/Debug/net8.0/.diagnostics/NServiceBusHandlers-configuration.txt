@@ -1952,7 +1952,7 @@
     "ProcessorCount": 8,
     "Is64BitProcess": true,
     "CLRVersion": "8.0.13",
-    "WorkingSet": 74051584,
+    "WorkingSet": 73904128,
     "SystemPageSize": 4096,
     "HostName": "Home-Laptop",
     "UserName": "pawel",
